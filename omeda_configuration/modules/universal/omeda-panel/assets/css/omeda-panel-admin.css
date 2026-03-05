@@ -1,0 +1,58 @@
+div.notice:not(.omeda-panel), #message:not(.omeda-panel), .angelleye-notice, .error {
+    display: none !important;
+}
+
+.o-button--cta {
+	--o-button-context-color: #3c9d3a;
+	--o-button-context-color-dark: #2e742d;
+	--o-button-context-tint: var(--e-context-cta-tint-1);
+	--o-focus-color: var(--e-context-cta-tint-4);
+}
+
+.o-button.o-button--outline {
+	color: var(--o-button-context-color);
+	background: none;
+	border: 1px solid;
+}
+
+.o-button:active, .o-button:focus, .o-button:hover {
+    color: #fff;
+    text-decoration: none;
+    background: var(--o-button-context-color-dark);
+    cursor: pointer;
+}
+
+.o-button {
+	display: inline-block;
+	font-weight: var(--e-button-font-weight);
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	color: #fff;
+	border: 0;
+	text-decoration: none;
+	background: var(--o-button-context-color);
+	padding: var(--e-button-padding-y) var(--e-button-padding-x);
+	font-size: var(--e-button-font-size);
+	line-height: var(--e-button-line-height);
+	border-radius: var(--e-button-border-radius);
+	transition: background-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	width: -webkit-fill-available;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+#force-omeda-process.disabled {
+    cursor: not-allowed !important;
+    background-color: #9d3a3ac7;
+    color: #FFF;
+}
+
+#force-omeda-process.complete {
+    cursor: not-allowed !important;
+    background-color: #653a9dc7;
+    color: #FFF;
+}

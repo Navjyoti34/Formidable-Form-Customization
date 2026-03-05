@@ -1,0 +1,105 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  width: 80%;
+  max-width: 768px;
+  margin: 100px auto;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 9999;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header h4 {
+  margin: 0;
+  vertical-align: middle;
+}
+
+.modal-header {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close {
+  cursor: pointer;
+  font-size: 2.125rem !important;
+  font-weight: 300;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.modal-body {
+  padding: 10px;
+}
+
+.modal-footer {
+  padding: 10px;
+  text-align: right;
+  border-top: 1px solid #cccccc;
+}
+
+
+.modal-buttons {
+  margin-top: 10px;
+  text-align: right;
+}
+
+button#continueButton,
+button#cancelButton {
+  font-size: 16px !important;
+  border-radius: 0 !important;
+  padding: 0.6em 1.2em !important;
+  margin-left: 10px;
+}
+
+button#continueButton:hover,
+button#cancelButton:hover {
+  color: var(--bb-primary-button-background-hover);
+}
+
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+    margin: 0 0 1em !important;
+}
+
+/* Loader CSS for the subscription cancel model */
+#myModal .overlay-content {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  text-align: center;
+  background: rgba(6, 6, 6, 0.44);
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  display: none;
+}
+#myModal .overlay-content .loader {
+  margin-left: -100px;
+  position: absolute;
+  top: 125px;
+  left: 50%;
+  text-align: center;
+}

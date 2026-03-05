@@ -1,0 +1,281 @@
+div.notice:not(.ga-four-integration), #message:not(.ga-four-integration), .angelleye-notice {
+  display: none !important;
+}
+
+.inner-fieldset:has(.data_layer_off) {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* ga-styles.css */
+
+.ga-four-integration {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-snackbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    z-index: 9999;
+}
+
+.custom-snackbar.success {
+    background-color: #4CAF50; /* Green background for success */
+}
+
+.custom-snackbar.error {
+    background-color: #f44336; /* Red background for error */
+}
+
+
+.ga-four-integration h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.ga-four-integration textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.6;
+    resize: vertical;
+}
+
+.ga-four-integration .submit {
+    margin-top: 20px;
+}
+
+/* Styling for the button */
+.ga-four-integration .button-primary {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    transition: background-color 0.3s ease;
+}
+
+.ga-four-integration .button-primary:hover {
+    background-color: #00568c;
+}
+
+.custom-fieldset {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.custom-fieldset legend {
+    font-size: 18px;
+    color: #333;
+}
+
+#ga_integration_script {
+  width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.btn.btn-primary {
+    margin: 0 auto;
+    margin-top: 20px !important;
+    width: 100%;
+    margin: 5px;
+}
+
+.notice-error {
+    border-left-color: #db1717 !important;
+}
+
+.notice, div.error, div.updated {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    padding: 1px 12px;
+}
+
+/* Padding Classes */
+.p-1 { padding: 0.25rem; }
+.p-2 { padding: 0.5rem; }
+.p-3 { padding: 0.75rem; }
+.p-4 { padding: 1rem; }
+.p-5 { padding: 1.25rem; }
+
+/* Margin Classes */
+.m-1 { margin: 0.25rem; }
+.m-2 { margin: 0.5rem; }
+.m-3 { margin: 0.75rem; }
+.m-4 { margin: 1rem; }
+.m-5 { margin: 1.25rem; }
+
+/* Top Padding */
+.pt-1 { padding-top: 0.25rem; }
+.pt-2 { padding-top: 0.5rem; }
+.pt-3 { padding-top: 0.75rem; }
+.pt-4 { padding-top: 1rem; }
+.pt-5 { padding-top: 1.25rem; }
+
+/* Bottom Padding */
+.pb-1 { padding-bottom: 0.25rem; }
+.pb-2 { padding-bottom: 0.5rem; }
+.pb-3 { padding-bottom: 0.75rem; }
+.pb-4 { padding-bottom: 1rem; }
+.pb-5 { padding-bottom: 1.25rem; }
+
+/* Left Padding */
+.pl-1 { padding-left: 0.25rem; }
+.pl-2 { padding-left: 0.5rem; }
+.pl-3 { padding-left: 0.75rem; }
+.pl-4 { padding-left: 1rem; }
+.pl-5 { padding-left: 1.25rem; }
+
+/* Right Padding */
+.pr-1 { padding-right: 0.25rem; }
+.pr-2 { padding-right: 0.5rem; }
+.pr-3 { padding-right: 0.75rem; }
+.pr-4 { padding-right: 1rem; }
+.pr-5 { padding-right: 1.25rem; }
+
+/* Left and Right Padding */
+.px-1 { padding-left: 0.25rem; padding-right: 0.25rem; }
+.px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
+.px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.px-5 { padding-left: 1.25rem; padding-right: 1.25rem; }
+
+/* Top and Bottom Padding */
+.py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+.py-2 { padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.py-3 { padding-top: 0.75rem; padding-bottom: 0.75rem; }
+.py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+.py-5 { padding-top: 1.25rem; padding-bottom: 1.25rem; }
+
+/* Similar classes for margin (mt, mb, ml, mr, mx, my) */
+
+/* Horizontal Margin */
+.mx-1 { margin-left: 0.25rem; margin-right: 0.25rem; }
+.mx-2 { margin-left: 0.5rem; margin-right: 0.5rem; }
+.mx-3 { margin-left: 0.75rem; margin-right: 0.75rem; }
+.mx-4 { margin-left: 1rem; margin-right: 1rem; }
+.mx-5 { margin-left: 1.25rem; margin-right: 1.25rem; }
+
+/* Vertical Margin */
+.my-1 { margin-top: 0.25rem; margin-bottom: 0.25rem; }
+.my-2 { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+.my-3 { margin-top: 0.75rem; margin-bottom: 0.75rem; }
+.my-4 { margin-top: 1rem; margin-bottom: 1rem; }
+.my-5 { margin-top: 1.25rem; margin-bottom: 1.25rem; }
+
+.row {
+    display: flex;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+}
+
+.col {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.gray-box {
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto;
+}
+
+.card {
+  display: -webkit-inline-box;
+}
+
+.column {
+  width: 50%;
+}
+
+.inner-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.inner-column {
+  flex-basis: calc(50% - 10px);
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.inner-fieldset {
+  border-radius: 4px;
+  padding: 20px;
+  width: 30%;
+  background-color: #f5f5f5;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.inner-fieldset:nth-child(2) {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+ pre {
+    font-family: Arial, sans-serif;
+}
+
+code.json {
+    display: block;
+    white-space: pre;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+}
+
+.toggle-label {
+    display: block;
+    margin-bottom: 10px;
+    float: right;
+    margin-right: 15px;
+}
+
+.section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#toggleCheckbox {
+  width: 20px;
+  height: 20px;
+  padding: 2px !important;
+}

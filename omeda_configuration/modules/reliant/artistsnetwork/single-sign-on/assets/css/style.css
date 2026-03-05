@@ -1,0 +1,62 @@
+ span#dot {
+     font-weight: bold !important;
+     display: inline-flex;
+     width: 25px;
+}
+ span#dot span:before {
+     animation: dots 3s linear infinite;
+     content: "";
+}
+ @keyframes dots {
+     0%, 20% {
+         content: ".";
+    }
+     40% {
+         content: "..";
+    }
+     60% {
+         content: "...";
+    }
+     90%, 100% {
+         content: "";
+    }
+}
+ .no-hover {
+     pointer-events: none;
+}
+ .woocommerce-success {
+     background: #00a115 !important;
+     font-size: 1em;
+     color: #fff;
+     border: 0;
+     list-style: none outside;
+     width: auto;
+     word-wrap: break-word;
+     padding: 1em 2em 1em 3.5em;
+     margin: 0 0 2em;
+     position: relative;
+     margin-bottom: 1em;
+     border-radius: var(--bb-block-radius);
+}
+ .woocommerce-success::before {
+     display: inline-block;
+     position: absolute;
+     top: 1em;
+     left: 1.5em;
+     font-size: 16px;
+     text-rendering: auto;
+     -webkit-font-smoothing: antialiased;
+     font-family: bb-icons;
+     content: "\ee65";
+     font-weight: 100;
+     color: #fff;
+}
+ .d-none {
+    display: none !important;
+}
+ .float-left {
+     float: left !important;
+}
+ .float-right {
+     float: right !important;
+}

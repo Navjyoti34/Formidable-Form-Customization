@@ -1,0 +1,23 @@
+.woocommerce-message {
+    background-color: #8BC34A !important;
+    color: #fff !important;
+    border-color: #689F38 !important;
+}
+.disable-div {
+  opacity: 0.75; /* Adjust the styling to visually disable the div */
+  pointer-events: none;
+}
+
+.disable-div input,
+.disable-div button {
+  pointer-events: none;
+}
+
+.disable-div label {
+  cursor: not-allowed;
+  opacity: 0.75;
+}
+
+#magazine-opt-in-content {
+    user-select: none !important;
+}

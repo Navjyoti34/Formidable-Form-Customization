@@ -1,0 +1,144 @@
+{
+    "sewdaily.com": {
+        "general-checkout": {
+            "SD-NL-Friday": 32,
+            "SD-NL-Monday": 28,
+            "SD-NL-Thursday": 31,
+            "SD-NL-Tuesday": 29,
+            "SD-NL-Wednesday": 30,
+            "SD-Partner": 5,
+            "SD-Promo": 15
+        }
+    },
+    "artistsnetwork.com": {
+        "general-checkout": {
+            "ARN-NL-Friday": 44,
+            "ARN-NL-Monday": 40,
+            "ARN-NL-Thursday": 43,
+            "ARN-NL-Tuesday": 41,
+            "ARN-NL-Wednesday": 42,
+            "ARN-Partner": 7,
+            "ARN-Promo": 17
+        },
+        "membership-based": [
+            {
+                "27352": {
+                    "ARN-Events": 76,
+                    "ARN-Membership": 86,
+                    "ARN-Promo": 17,
+                    "ARN-Partner": 7
+                },
+                "28344": {
+                    "ARN-Events": 76,
+                    "ARN-Membership": 86,
+                    "ARN-Promo": 17,
+                    "ARN-Partner": 7
+                }
+            }
+        ],
+        "forced-membership-based": [
+            {
+                "27352": {
+                    "ARN-Membership": 86
+                },
+                "28344": {
+                    "ARN-Membership": 86
+                }
+            }
+        ]
+    },
+    "quiltingdaily.com": {
+        "general-checkout": {
+            "QD-NL-Friday": 38,
+            "QD-NL-Monday": 34,
+            "QD-NL-Thursday": 37,
+            "QD-NL-Tuesday": 35,
+            "QD-NL-Wednesday": 36,
+            "QD-Partner": 6,
+            "QD-Promo": 16
+        }
+    },
+    "interweave.com": {
+        "general-checkout": {
+            "IW-Partner": 8,
+            "IW-Promo": 20
+        },
+        "community-based": {
+            "63430": {
+                "BD-NL-Friday": 51,
+                "BD-NL-Monday": 47,
+                "BD-NL-Thursday": 50,
+                "BD-NL-Tuesday": 48,
+                "BD-NL-Wednesday": 49,
+                "BD-Partner": 9,
+                "BD-Promo": 21
+            },
+            "68485": {
+                "BD-NL-Friday": 51,
+                "BD-NL-Monday": 47,
+                "BD-NL-Thursday": 50,
+                "BD-NL-Tuesday": 48,
+                "BD-NL-Wednesday": 49,
+                "BD-Partner": 9,
+                "BD-Promo": 21
+            },
+            "63579": {
+                "CM-NL-Friday": 57,
+                "CM-NL-Monday": 53,
+                "CM-NL-Thursday": 56,
+                "CM-NL-Tuesday": 54,
+                "CM-NL-Wednesday": 55,
+                "CM-Partner": 10,
+                "CM-Promo": 22
+            },
+            "64234": {
+                "JMD-NL-Friday": 63,
+                "JMD-NL-Monday": 59,
+                "JMD-NL-Thursday": 62,
+                "JMD-NL-Tuesday": 60,
+                "JMD-NL-Wednesday": 61,
+                "JMD-Partner": 11,
+                "JMD-Promo": 23
+            },
+            "63547": {
+                "KD-NL-Friday": 69,
+                "KD-NL-Monday": 65,
+                "KD-NL-Thursday": 68,
+                "KD-NL-Tuesday": 66,
+                "KD-NL-Wednesday": 67,
+                "KD-Partner": 12,
+                "KD-Promo": 24
+            }
+        },
+        "membership-based": [
+            {
+                "68447": {
+                    "IWP-Events": 77,
+                    "IWP-Membership": 92,
+                    "IWP-Promo": 25,
+                    "IWP-Partner": 13
+                },
+                "68448": {
+                    "IWP-Events": 77,
+                    "IWP-Membership": 92,
+                    "IWP-Promo": 25,
+                    "IWP-Partner": 13
+                }
+            }
+        ],
+        "forced-membership-based": [
+            {
+                "68447": {
+                    "IWP-Membership": 92
+                },
+                "68448": {
+                    "IWP-Membership": 92
+                }
+            }
+        ]
+    }
+}
+
+
+
+

@@ -1,0 +1,181 @@
+.page-wrapper {
+  margin-top: 20px;
+}
+
+select#form-country {
+  width: 100%;
+}
+
+#address_form {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#address_form label {
+  font-weight: bold;
+}
+
+fieldset {
+  padding: 1rem;
+}
+
+button[name="submit"]:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed !important;
+}
+
+button[name="submit"]:disabled:hover {
+    background-color: #1e73be !important;
+    color: #fff !important;
+    cursor: not-allowed !important;
+}
+
+#address_form .input-text {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#address_form p {
+  margin-bottom: 10px;
+}
+
+fieldset input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+select#project_interest {
+    width: 100%;
+}
+
+fieldset label {
+    font-weight: 400 !important;
+}
+
+.site a {
+    font-size: 16px;
+    font-size: inherit !important;
+}
+
+legend {
+  font-size: 16px !important;
+}
+
+.site a:hover {
+    text-decoration: underline;
+}
+
+#address_form button {
+  background-color: #1e73be;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #1e73be;
+  margin-top: 5px;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 100%
+}
+
+.d-none {
+	display: none !important;
+}
+
+#address_form button:hover {
+  background-color: #FFF;
+  color: #1e73be;
+}
+
+abbr.required {
+  color: red;
+}
+
+span.field-description {
+  font-size: 13px;
+}
+
+input#tooltipInput {
+  width: 100%;
+  padding: 10px;
+}
+
+.tooltip {
+	background-color: #333;
+	color: #fff;
+	border-radius: 5px;
+	position: relative;
+	display: none;
+}
+
+img#logo {
+    vertical-align: unset;
+    float: unset;
+    position: unset;
+}
+
+.entry-title {
+  display: none !important;
+}
+
+hr#spacer {
+    background-color: unset;
+    border: 0;
+    box-sizing: content-box;
+    height: 2px;
+    padding-top: 25px;
+}
+
+.entry-content #title {
+    margin-top: 2.1875rem;
+    margin-bottom: 2.1875rem!important;
+    line-height: 1.2;
+    font-size: 1.75rem;
+    color: var(--bb-headings-color);
+    margin: 0;
+}
+
+.entry-content img {
+	vertical-align: bottom;
+	float: right;
+	right: 0;
+	z-index: 999;
+	position: absolute;
+}
+
+button#submit {
+  margin-top: 5px;
+}
+
+.notification {
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.notification.success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.notification.warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.notification.danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+#first_name_field {
+  transition: margin-top 0.5s ease; /* Add a CSS transition */
+}

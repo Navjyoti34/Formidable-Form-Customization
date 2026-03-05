@@ -1,0 +1,41 @@
+*   Trying 209.10.197.64:443...
+* Connected to ows.omedastaging.com (209.10.197.64) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* successfully set certificate verify locations:
+*  CAfile: /etc/ssl/certs/ca-certificates.crt
+*  CApath: /etc/ssl/certs
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server did not agree to a protocol
+* Server certificate:
+*  subject: CN=*.omeda.com
+*  start date: Jun 18 14:04:19 2023 GMT
+*  expire date: Jun 23 14:04:19 2024 GMT
+*  subjectAltName: host "ows.omedastaging.com" matched cert's "*.omedastaging.com"
+*  issuer: C=US; ST=Texas; L=Houston; O=SSL Corporation; CN=SSL.com RSA SSL subCA
+*  SSL certificate verify ok.
+> POST /webservices/rest/brand/GPM/runprocessor/* HTTP/1.1
+Host: ows.omedastaging.com
+Accept: */*
+x-omeda-appid: BF3B6674-C62C-4451-B27D-BC820F0CF5D3
+x-omeda-inputid: 3126C4678801A4C
+Content-Type:application/json
+Content-Length: 42
+
+* upload completely sent off: 42 out of 42 bytes
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 200 
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< X-XSS-Protection: 1; mode=block
+< Date: Thu, 26 Oct 2023 14:47:13 GMT
+< Accept-Ranges: bytes
+< Server: Apache
+< Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept
+< SubmissionId: b3134bf8-2acd-4256-8ea3-d36968a53d7f
+< Content-Type: application/json;charset=UTF-8
+< Transfer-Encoding: chunked
+< Connection: Keep-alive
+< Via: 1.1 ID-0000605166710030 uproxy-3
+< 
+* Connection #0 to host ows.omedastaging.com left intact

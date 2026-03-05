@@ -1,0 +1,83 @@
+div.notice:not(.transactional-emails), #message:not(.transactional-emails), .angelleye-notice {
+  display: none !important;
+}
+.tablenav {
+	display: none !important;
+}
+#omeda_track_id_input_lock {
+	padding: 5px;
+	cursor: pointer;
+}
+.nav-tab-wrapper {
+    margin-bottom: 20px;
+}
+
+.nav-tab {
+    display: inline-block;
+    padding: 8px 12px;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-tab.active {
+    background-color: #fff;
+    border-bottom-color: #fff;
+}
+
+.tab-panel {
+    display: none;
+    margin-top: 20px;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+.tablenav-pages.bottom {
+  margin-top: 20px;
+}
+
+span.displaying-num {
+    padding-right: 10px !important;
+}
+
+.tablenav-pages {
+    float: right;
+}
+
+.tablenav-pages {
+  padding-bottom: 15px;
+}
+
+.pagination-links .page-numbers {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+}
+
+.pagination-links .page-numbers.current {
+  font-weight: bold;
+}
+
+.pagination-links .next,
+.pagination-links .prev {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+}
+
+.pagination-links .next:hover,
+.pagination-links .prev:hover {
+  background-color: #f0f0f0;
+}
