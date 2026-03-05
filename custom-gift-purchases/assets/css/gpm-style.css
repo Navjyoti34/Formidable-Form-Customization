@@ -1,0 +1,492 @@
+.is-this-a-gift span {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+.woocommerce-checkout .bb-wc-co table.shop_table .check-name {
+    font-size: 1rem !important;
+    padding-top: 10px !important;
+}
+
+.gift-options-form {
+    padding-top:2px !important;
+}
+
+p#gift-info-message {
+    padding-left: 5px;
+}
+
+.qty {
+    font-size: 14px !important;
+}
+
+p#sender-name {
+    overflow-wrap: break-word;
+    padding-left: 5px;
+    display: contents;
+    max-width: fit-content;
+}
+
+#contact .description {
+    display: contents !important;
+    font-size: 15px !important;
+    color: #919191 !important;
+}
+
+[id^="is-that-a-gift-"] {
+    width: 17px !important;
+    height: 17px !important;
+}
+
+span.woocommerce-Price-amount.amount {
+    font-size: 20px !important;
+}
+
+span#would-you-gift {
+    font-size: 1.1rem;
+}
+
+#contact input[type=checkbox] {
+    width: 17px;
+    height: 17px;
+}
+
+input[type="text"], input[type="password"], input[type="search"], input[type="email"], input[type="url"], input[type="tel"], input[type="number"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], textarea, select {
+    border-radius: 0 !important;
+    border: 1px solid #dedfe2 !important;
+    color: #555555 !important;
+    transition: .2s outline ease-out;
+}
+
+input.input-text, .woocommerce form .form-row textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: normal;
+}
+
+tr.cart_item.bundled_table_item .is-this-a-gift {
+    display: none;
+}
+
+.d-none {
+    display: none !important;
+}
+
+body.modal-open {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+#gift-options {
+    pointer-events: unset !important;
+    opacity: 1 !important;
+    display: block !important;
+}
+
+    #gift-options > .form-row:last-child {
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+#product-title {
+    padding: 5px;
+}
+
+.gift-textarea {
+    margin-bottom: 0px !important;
+    padding: 5px;
+}
+
+input[type="date"] {
+    position: relative;
+}
+
+    /* create a new arrow, because we are going to mess up the native one
+    see "List of symbols" below if you want another, you could also try to add a font-awesome icon.. */
+
+
+    /* change color of symbol on hover */
+    input[type="date"]:hover:after {
+        color: #bf1400;
+    }
+
+    /* make the native arrow invisible and stretch it over the whole field so you can click anywhere in the input field to trigger the native datepicker*/
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        background-position: right;
+        background-size: contain;
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 5px;
+        top: 0;
+        margin: auto;
+        width: auto;
+    }
+
+    /* adjust increase/decrease button */
+    input[type="date"]::-webkit-inner-spin-button {
+        z-index: 1;
+    }
+
+    /* adjust clear button */
+    input[type="date"]::-webkit-clear-button {
+        z-index: 1;
+    }
+
+
+    input[type="date"]::-webkit-datetime-edit, input[type="date"]::-webkit-inner-spin-button, input[type="date"]::-webkit-clear-button {
+        display: none;
+    }
+
+    input[type="date"]:before {
+        content: attr(data-date);
+        display: inline-flex;
+        color: black;
+        position: absolute;
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+
+.bootbox-body td {
+    vertical-align: top !important;
+}
+
+#gift-message-char-remaining {
+    color: #919191 !important;
+    font-size: 15px;
+    float: right;
+    padding: 5px;
+}
+
+#gift-options > .form-row:not(.gift-textarea) {
+    padding: 5px;
+}
+
+#gift-options > .form-row-first {
+    width: 50%;
+}
+@media only screen and (max-width: 600px) {
+    #gift-options > .form-row-first {
+        width: 100%;
+    }
+  }
+label {
+    font-size: 16px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    color: var(--bb-body-text-color);
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 400 !important;
+    cursor: unset !important;
+}
+
+#contact table {
+    border: 0px !important;
+}
+#contact table tr td{
+    border: 0 !important;
+}
+#gift-options {
+    pointer-events: none;
+    opacity: 0.4;
+    padding-top: 5px;
+    width: 98%;
+}
+
+.bootbox-close-button:hover, .bootbox-close-button:focus {
+    color: #FFF;
+    background-color: var(--e-global-color-fecfec6 );
+    border-style: unset !important;
+}
+
+button.close:before {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    content: '\e828' !important;
+    font-family: bb-icons !important;
+}
+
+button.close {
+    background: unset !important;
+    font-size: 30px !important;
+    color: #fff !important;
+    position: absolute !important;
+    right: 1% !important;
+    top: 1% !important;
+}
+
+i.bb-icon-f.bb-icon-gift {
+    font-size: 22px;
+    padding-right: 5px !important;
+}
+
+input[id^="is-that-a-gift-"] {
+    margin-top: 5px !important;
+}
+
+#contact {
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: auto;
+    max-height: 65vh;
+    overflow-x: hidden;
+    margin-bottom: 5px;
+}
+
+    #contact fieldset {
+        margin-top: 0px !important;
+        border: 0px !important;
+        margin-bottom: 0px !important;
+        padding: 5px !important;
+    }
+
+h5.modal-title {
+    font-weight: 500 !important;
+    font-family: "Museo Slab", serif !important;
+    font-size: 1.625rem !important;
+    color: #fff;
+    text-align: center;
+}
+
+div#product-title {
+    font-weight: 500 !important; 
+    font-size: 1.425rem !important;
+    color: #4d61b5;
+    padding-bottom: 15px !important;
+}
+
+.is-this-a-gift {
+    display: flex;
+    color: #f46c63 !important;
+    font-family: "Open Sans, Sans-serif";
+    font-weight: 400;
+}
+
+i.bb-icon-l.bb-icon-gift {
+    font-size: 22px;
+    padding-right: 5px;
+}
+
+.is-this-a-gift a:hover {
+    color: black !important;
+}
+
+.is-this-a-gift a {
+    color: #4d61b5 !important;
+    font-family: "Open Sans", Sans-serif !important;
+    font-weight: 400 !important;
+    display: contents;
+}
+
+.hidden {
+    display: none;
+}
+
+.open {
+    display: block !important;
+}
+
+.modal-open {
+    overflow: hidden;
+}
+
+    .modal-open .modal {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+.modal {
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-overflow-scrolling: touch;
+    z-index: 1050;
+    max-width: 1250px !important;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+    width: 100%; 
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    outline: 0;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #00000067;
+    -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.modal-header {
+    padding: 5px 15px;
+    border-bottom: 1px solid #4458af;
+    min-height: 16.42857143px;
+    background: #4d61b5;
+    border-radius: 6px;
+}
+
+    .modal-header .close {
+        margin-top: -2px;
+    }
+
+.modal-title {
+    margin: 0; 
+}
+
+.modal button {
+    margin: 5px !important;
+}
+
+.modal-body {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: unset;
+    padding-top:5px !important;
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: center;
+    border-top: 1px dashed #4d61b5;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: .8;
+}
+
+button.close {
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.gift-msg-box{
+    display: flex;
+}
+.gift-msg-box .gift-lable{
+    flex: 1;
+}
+.gift-msg-box .gift-text{
+    display:contents; font-size:0.8rem; text-align:right; flex: 1;
+}
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 100%;
+        margin: 30px auto;
+        max-width: 1050px;
+    }
+
+    .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .modal-sm {
+        width: 300px;
+    }
+}
+
+@media (min-width: 992px) {
+    .modal-lg {
+        width: 900px;
+    }
+}
+
+@media (max-width: 600px){
+    #contact table tr td { 
+        width: 100% !important;
+        display: table;
+    }
+    .gift-msg-box{
+        flex-direction: column;
+    }    
+}
+[role="button"] {
+    cursor: pointer;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.affix {
+    position: fixed;
+}
+
+input[type="number"]:not([step="any"])::-webkit-inner-spin-button,
+input[type="number"]:not([step="any"])::-webkit-outer-spin-button {
+    opacity: 1 !important;
+}
+
+.highlighted {
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.6);
+    transition: box-shadow 0.3s ease-in-out;
+}
