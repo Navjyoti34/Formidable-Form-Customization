@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: GPM PDF Watermark Plugin
+Plugin Name: CUSTOM PDF Watermark Plugin
 Description: Adds a watermark to PDFs dynamically using PDF-LIB JavaScript library.
 Version: 1.0
-Author: Asentech Developer
-License: GPL-2.0-or-later
+Author: Navjyoti
+
 */
 
 if (!defined('ABSPATH')) exit; // Exit if accessed directly

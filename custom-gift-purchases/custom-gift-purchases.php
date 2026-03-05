@@ -1,12 +1,11 @@
 <?php
 
 /*
-Plugin Name: GPM Gift Purchases
+Plugin Name: Custom Gift Purchases
 Plugin URI:
-Description: GPM custom Grants the ability to gift purchases in checkout.
+Description:  custom Grants the ability to gift purchases in checkout.
 Version: 1.1
-Author:  GPMDev
-Author URI: https://goldenpeakmedia.com/
+Author:  Navjyoti
 License:
 */
 
